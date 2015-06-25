@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<title> Daily Challenge || Simple Tip Calculator || 6.24.2015 </title>
+
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  	<link rel='stylesheet' href='tipstyle.css'>
+
+  	<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+
+  	<script src='tipscript.js'></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class='container' id='maincont'>
+
+	<div class='form-group text-center'>
+		<label for='userinput'>Enter Your Amount</label>
+		<input type='text' class='form-control' id='userinput'>
+	</div>
+
+	
+	<div class='row text-center'>
+
+ 		
+ 		<div class='col-md-4'>
+ 			<button onclick="calcFifteen()" type='button' class='btn btn-primary' id='fifteenBtn'> 15% </button>
+ 		</div>
+
+ 		
+ 		<div class='col-md-4'>
+ 			<button onclick="calcTwenty()" type='button' class='btn btn-success' id='twentyBtn'> 20% </button>
+ 		</div>
+
+ 		<div class='col-md-4'>
+ 			<button onclick="calcTwentyFive()" type='button' class='btn btn-info' id='twentyFiveBtn'> 25% </button>
+ 		</div>
+	
+
+	</div>
+
+	
+	<div class='container text-center' id='response'>
+		Calculate your tip!
+	</div>
+
+</div>
+
+<div class="container text-center">
+<p id='footer'> Daily Code Project || Tip Calculator || 6.25.2015 || Blake Smith </p>
+</div>
+
+
+</body>
+</html>
